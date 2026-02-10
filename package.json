@@ -1,0 +1,19 @@
+{
+  "name": "bfhl-api",
+  "version": "1.0.0",
+  "description": "BFHL REST API with Fibonacci, Prime, LCM, HCF, and AI operations",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["bfhl", "fibonacci", "prime", "lcm", "hcf", "ai"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "@google/generative-ai": "^0.3.0"
+  }
+}
